@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="442808dd-1667-43f3-8d3a-d9562178a221" name="Changes" comment="1. Inheritance of annotations in Spring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/Audit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/AuditBPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/AuditManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/MyCoolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/MyCoolServiceImpl.java" afterDir="false" />
+    <list default="true" id="442808dd-1667-43f3-8d3a-d9562178a221" name="Changes" comment="1. Aspect DIY and BPP&#10;How to use BeanPostProcessors correctly">
+      <change afterPath="$PROJECT_DIR$/src/main/java/puzzlers/p2_audit/PayInformatorAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/p2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/p2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/p2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707799005212</updated>
-      <workItem from="1707799012724" duration="19546000" />
+      <workItem from="1707799012724" duration="25592000" />
     </task>
     <task id="LOCAL-00001" summary="1. Inheritance of annotations in Spring">
       <created>1707867996560</created>
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707867996560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. Aspect DIY and BPP&#10;How to use BeanPostProcessors correctly">
+      <created>1708037691649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708037691649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Inheritance of annotations in Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Inheritance of annotations in Spring" />
+    <MESSAGE value="1. Aspect DIY" />
+    <MESSAGE value="1. Aspect DIY and BPP&#10;How to use BeanPostProcessors correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Aspect DIY and BPP&#10;How to use BeanPostProcessors correctly" />
   </component>
 </project>
